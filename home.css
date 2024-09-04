@@ -1,0 +1,287 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    color: #ff3e6c;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-bar input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 250px;
+}
+
+.search-bar button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 0 4px 4px 0;
+    background-color: #ff3e6c;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-bar button:hover {
+    background-color: #ff5e7c;
+}
+
+/* Top Banner Styles */
+.top-banner {
+    background-color: #ff3e6c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.top-banner img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.top-banner h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.top-banner p {
+    font-size: 16px;
+}
+
+/* Main Ad Section Styles */
+.main-ad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-ad .left, .main-ad .right {
+    width: 30%;
+    text-align: center;
+}
+
+.main-ad .left img, .main-ad .right img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.main-ad .left button, .main-ad .right button {
+    padding: 10px 20px;
+    background-color: #ff3e6c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.main-ad .center {
+    text-align: center;
+    width: 40%;
+}
+
+.main-ad .center img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.main-ad .center h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.main-ad .center h3 {
+    font-size: 20px;
+    color: #ff3e6c;
+    margin-bottom: 10px;
+}
+
+.main-ad .center p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Product Categories Section */
+.product-categories {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-categories .category {
+    width: 23%;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-categories .category img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.product-categories .category p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product-categories .category span {
+    font-size: 14px;
+    color: #ff3e6c;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    width: 23%;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #ff3e6c;
+}
+
+.app-links img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 30px;
+}
+
+.footer-policies {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #bbb;
+}
+
+.footer-policies p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-policies img {
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.footer-popular-searches {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: #bbb;
+}
+
+.footer-popular-searches p {
+    font-size: 12px;
+    margin: 0;
+}
